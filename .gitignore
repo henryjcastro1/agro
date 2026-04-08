@@ -1,0 +1,27 @@
+# Archivos compilados y builds
+dist/
+build/
+*.exe
+*.pkg
+*.spec
+*.zip
+
+# Python
+__pycache__/
+*.pyc
+venv/
+env/
+
+# Archivos de datos grandes
+*.pdf
+*.mp4
+*.csv.big
+
+# Archivos temporales
+processed.json
+*.log
+*.tmp
+
+# IDE
+.vscode/
+.idea/
