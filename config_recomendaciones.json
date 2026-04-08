@@ -1,0 +1,150 @@
+{
+  "grasa": {
+    "rangos": [
+      {
+        "limite": 3.0,
+        "mensaje": "Grasa < 3,0 % (NTC 399).\nPosibles causas: poca fibra efectiva, rumen acidótico, exceso de grano.\nRecomendaciones: aumentar fibra larga, reducir grano fino, añadir heno."
+      },
+      {
+        "limite": 3.4,
+        "mensaje": "Grasa 3,0–3,4 % (Codex).\nPosibles causas: dietas bajas en fibra o cambios bruscos en la mezcla.\nRecomendaciones: mejorar FDN efectiva, estabilizar dieta."
+      },
+      {
+        "limite": 4.2,
+        "mensaje": "Grasa 3,4–4,2 % (ICAR).\nXXXXXXXXXXXXXXXXXXXXXXXXXX\nXXXXXXXXXXXXXXXXXXXXXXXXX"
+      },
+      {
+        "limite": null,
+        "mensaje": "Grasa > 4,2 % (ICAR).\nPosibles causas: dieta muy fibrosa, déficit energético.\nRecomendaciones: aumentar energía fermentable (maíz)."
+      }
+    ]
+  },
+  "proteina": {
+    "rangos": [
+      {
+        "limite": 3.0,
+        "mensaje": "Proteína < 3,0 % (NTC 399).\nPosibles causas: dieta baja en energía, forraje pobre, rumen lento.\nRecomendaciones: incrementar energía, mejorar calidad del forraje."
+      },
+      {
+        "limite": 3.6,
+        "mensaje": "Proteína 3,0–3,6 % (ICAR).\nBalance nutricional adecuado.\nRecomendación: mantener dieta y manejo."
+      },
+      {
+        "limite": null,
+        "mensaje": "Proteína > 3,6 % (ICAR).\nPosibles causas: exceso de proteína.\nRecomendaciones: reducir PC en concentrado, revisar fertilización nitrogenada."
+      }
+    ]
+  },
+  "solidos_totales": {
+    "rangos": [
+      {
+        "limite": 11.3,
+        "mensaje": "ST < 11,3 % (NTC 399).\nPosibles causas: leche diluida, mala nutrición, posible adulteración.\nRecomendaciones: revisar FPD, mejorar consumo de materia seca."
+      },
+      {
+        "limite": 11.8,
+        "mensaje": "ST 11,3–11,8 % (MinSalud).\nPosibles causas: forraje de baja calidad, vacas recién paridas.\nRecomendaciones: incrementar energía."
+      },
+      {
+        "limite": 13.2,
+        "mensaje": "ST 11,8–13,2 % (ICAR).\nComposición ideal.\nRecomendación: mantener manejo nutricional."
+      },
+      {
+        "limite": null,
+        "mensaje": "ST > 13,2 % (ICAR).\nPosibles causas: deshidratación o leche muy concentrada.\nRecomendaciones: revisar acceso al agua, evaluar estrés térmico."
+      }
+    ]
+  },
+  "ufc": {
+    "rangos": [
+      {
+        "limite": 25000,
+        "mensaje": "UFC < 25.000 (ICAR).\nExcelente higiene y buen enfriamiento.\nRecomendación: mantener rutina CIP y temperatura del tanque."
+      },
+      {
+        "limite": 100000,
+        "mensaje": "UFC 25–100k (Res. 017/2012).\nLavado inestable.\nRecomendaciones: revisar CIP, detergente y temperatura del agua."
+      },
+      {
+        "limite": 300000,
+        "mensaje": "UFC 100–300k (ICAR).\nBiofilm o deficiencia en lavado.\nRecomendaciones: CIP alcalino + ácido, cambiar gomas, reforzar higiene."
+      },
+      {
+        "limite": null,
+        "mensaje": "UFC > 300k (MinAgricultura).\nContaminación severa, riesgo sanitario.\nRecomendaciones: auditoría completa, limpieza profunda, revisar cadena de frío."
+      }
+    ]
+  },
+  "celulas_somaticas": {
+    "rangos": [
+      {
+        "limite": 200000,
+        "mensaje": "Cs < 200.000 (DHIA).\nHigiene adecuada.\nRecomendaciones: mantener pre y post sellado, revisar pezoneras."
+      },
+      {
+        "limite": 400000,
+        "mensaje": "Cs 200–400.000 (DHIA).\nInicio de inflamación.\nRecomendaciones: CMT a vacas frescas, verificar pulsación y vacío."
+      },
+      {
+        "limite": 700000,
+        "mensaje": "Cs 400–700.000 (NTC 399).\nMastitis subclínica.\nRecomendaciones: segregar vacas problema, realizar tratamiento."
+      },
+      {
+        "limite": null,
+        "mensaje": "Cs > 700.000 (NTC 399).\nLeche fuera de norma.\nRecomendaciones: auditoría del equipo, reemplazo de pezoneras, higiene estricta."
+      }
+    ]
+  },
+  "lactosa": {
+    "rangos": [
+      {
+        "limite": 4.5,
+        "mensaje": "Lactosa < 4,5 % (DHIA).\nPosibles causas: mastitis subclínica, estrés calórico.\nRecomendaciones: realizar CMT, mejorar ventilación y acceso al agua."
+      },
+      {
+        "limite": 4.9,
+        "mensaje": "Lactosa 4,5–4,9 % (ICAR).\nSalud de ubre adecuada.\nRecomendación: mantener rutina y manejo."
+      },
+      {
+        "limite": null,
+        "mensaje": "Lactosa > 4,9 % (DHIA).\nAlta producción o vacas frescas.\nRecomendación: monitoreo."
+      }
+    ]
+  },
+  "urea": {
+    "rangos": [
+      {
+        "limite": 10,
+        "mensaje": "Urea < 10 mg/dL (NRC/UCC).\nPasto maduro o baja proteína degradable.\nRecomendaciones: aumentar proteína degradable, mejorar rotación del forraje."
+      },
+      {
+        "limite": 18,
+        "mensaje": "Urea 10–18 mg/dL (NRC/DHIA).\nDieta balanceada.\nRecomendación: mantener estabilidad en la dieta."
+      },
+      {
+        "limite": 22,
+        "mensaje": "Urea 18–22 mg/dL (DHIA).\nExceso de proteína soluble.\nRecomendaciones: reducir PC, aumentar energía fermentable."
+      },
+      {
+        "limite": null,
+        "mensaje": "Urea > 22 mg/dL (DHIA).\nSobreoferta proteica severa, riesgo reproductivo.\nRecomendaciones: reducir proteína inmediatamente, revisar BCS y servicios."
+      }
+    ]
+  },
+  "fpd": {
+    "rangos": [
+      {
+        "limite": -0.53,
+        "mensaje": "FPD ≤ –0,530 (NTC 399).\nLeche normal.\nRecomendación: mantener cadena de frío."
+      },
+      {
+        "limite": -0.51,
+        "mensaje": "FPD –0,530 a –0,510 (NTC 399).\nLigera variación normal.\nRecomendación: verificar temperatura del tanque."
+      },
+      {
+        "limite": null,
+        "mensaje": "FPD > –0,510 (NTC 399).\nPosible adición de agua o enfriamiento lento.\nRecomendaciones: revisar rutina de enfriamiento, auditar mezcla agua–leche."
+      }
+    ]
+  }
+}

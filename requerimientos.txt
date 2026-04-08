@@ -1,0 +1,1 @@
+Por cada archivo pdf generar un archivo pdf con el original y el de los requerimientos 
