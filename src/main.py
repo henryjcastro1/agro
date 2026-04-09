@@ -1,6 +1,10 @@
+import sys
+import os
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'database'))
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'core'))
+
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker, declarative_base
-import os
 import json
 import schedule
 import time

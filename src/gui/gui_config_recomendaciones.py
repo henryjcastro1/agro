@@ -349,7 +349,7 @@ class ConfiguracionRecomendaciones:
     
     def mostrar_ejemplo(self):
         """Muestra un ejemplo"""
-        from recommender import recomendar_con_valores_por_defecto
+        from src.core.recommender import recomendar_con_valores_por_defecto
         
         muestra = {
             "grasa": "2.8",

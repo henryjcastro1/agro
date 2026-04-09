@@ -1,4 +1,4 @@
-from parser import parse_pdf
+from src.core.parser import parse_pdf
 
 data = parse_pdf("pdfs/Ga F 97Sol.pdf")
 

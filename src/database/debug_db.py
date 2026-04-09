@@ -1,5 +1,5 @@
-from db import SessionLocal
-from models import Rad, Sample
+from src.database.db import SessionLocal
+from src.core.models import Rad, Sample
 
 db = SessionLocal()
 

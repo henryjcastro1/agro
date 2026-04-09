@@ -1,6 +1,6 @@
 import os
 from openpyxl import Workbook
-from models import Rad
+from src.core.models import Rad
 
 
 def export_to_excel(db, path="outputs/resultados.xlsx"):
